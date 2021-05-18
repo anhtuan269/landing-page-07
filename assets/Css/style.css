@@ -1,0 +1,10 @@
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    font-size:16px;
+    color:#303301;
+    line-height:24px;
+    font-weight:400;
+}
