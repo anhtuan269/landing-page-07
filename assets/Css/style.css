@@ -3,8 +3,9 @@
     margin:0;
 }
 body {
+    font-family: 'Roboto', sans-serif;
     font-size:16px;
-    color:#303301;
+    color:#303031;
     line-height:24px;
     font-weight:400;
 }

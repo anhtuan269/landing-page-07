@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-      <img :src="item.url" :alt="item.alt">
+      <img :src="item.url" :alt="item.alt" class="mx-auto">
   </div>
 </template>
 
