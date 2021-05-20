@@ -58,7 +58,7 @@
     },
     {
       "id": 1,
-      "url": "/image/logo.png",
+      "url": "/image/Logo.png",
       "alt": "landing-07 image",
       "type": "footer"
     }
@@ -98,20 +98,20 @@
     },
     {
       "id": 2,
-      "type": "aut",
+      "type": "model",
       "text": "5 AUT",
       "apply":"Apply by May 15"
     },
     {
-      "id": 4,
-      "type": "aut",
+      "id": 3,
+      "type": "FAQ",
       "apply":"Apply by May 18",
       "text": "10 AUT"
 
     },
     {
-      "id": 5,
-      "type": "aut",
+      "id": 4,
+      "type": "video",
       "apply":"Apply by May 20",
       "text": "40 AUT"
     }
@@ -210,7 +210,7 @@
       "name": "Dillon Kydd",
       "share": "100 SHARES",
       "commit": "",
-      "start": "",
+      "star": "",
       "rate": ""
     },
     {
@@ -220,7 +220,7 @@
       "name": "Kas Moss",
       "share": "100 SHARES",
       "commit": "",
-      "start": "",
+      "star": "",
       "rate": ""
     },
     {
@@ -230,7 +230,7 @@
       "name": "Anna Olsen",
       "share": "100 SHARES",
       "commit": "",
-      "start": "",
+      "star": "",
       "rate": ""
     },
     {
@@ -239,34 +239,38 @@
       "url": "/image/json.png",
       "name": "Jason Kwon",
       "commit": "",
-      "start": "/image/Star.png",
+      "share": "",
+      "star": "/image/Star.png",
       "rate": "4.8"
     },
     {
       "id": 5,
       "type": "applicants",
       "url": "/image/Alex-1.png",
+      "share": "",
       "name": "Alex Rose",
       "commit": "",
-      "start": "/image/Star.png",
+      "star": "/image/Star.png",
       "rate": "4.5"
     },
     {
       "id": 6,
       "type": "applicants",
       "url": "/image/lizzie.png",
+      "share": "",
       "name": "Lizzie Ulrich",
       "commit": "",
-      "start": "/image/Star.png",
+      "star": "/image/Star.png",
       "rate": "4.8"
     },
     {
       "id": 7,
       "type": "view",
       "url": "/image/alex.png",
+      "share": "",
       "name": "Alex Rose",
       "commit": "4 commits",
-      "start": "/image/Star.png",
+      "star": "/image/Star.png",
       "rate": "4.8"
     }
   ],
@@ -274,7 +278,7 @@
     {
       "id":1,
       "type":"inventor",
-      "url":"/image/jassir.png",
+      "url":"/image/Jassir.png",
       "pre":"Pre-seed angel investor",
       "name":"Jassir Jonis",
       "description":"Hey guys, love what you’re doing and I’m convinced that together we’ll achieve amazing things.",

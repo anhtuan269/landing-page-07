@@ -1,12 +1,13 @@
 <template>
-  <div class="logo">
-      <img :src="item.url" :alt="item.alt">
+  <div class="button">
+      <button>{{item.text}}</button>
+      <h3>{{item.apply}}</h3>
   </div>
 </template>
 
 <script>
 export default {
-    props: {
+    props:{
         item:{
             type:Object
         }

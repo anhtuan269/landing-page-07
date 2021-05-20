@@ -1,0 +1,41 @@
+<template>
+  <div class="hero mb-20">
+    <div class="left">
+      <Heading v-for="(head,index ) in heading" :key="index" :head="head" v-show="head.type==='hero'" :section="head.type" />
+      <Button v-for="(item,index ) in button" :key="index" :item="item" v-show="item.type==='early'"/>
+    </div>
+    <div class="right relative w-400">
+      <img src="@/static/image/hero-1.png" alt="" />
+      <img src="@/static/image/hero-bg.png" alt="" class="absolute top-0 left-16 z-a w-310" />
+    </div>
+  </div>
+</template>
+
+<script>
+import Heading from '@/components/Heading'
+import Button from '@/components/Button'
+
+export default {
+    components: {
+        Heading,
+        Button
+    },
+    data() {
+        return {
+            heading:[],
+            button:[]
+        }
+    },
+    async fetch() {
+        this.heading = await fetch('http://localhost:3000/heading').then((res)=> {
+            return res.json()
+        });
+        this.button = await fetch('http://localhost:3000/button').then((res) => {
+            return res.json()
+        })
+    }
+};
+</script>
+
+<style>
+</style>
