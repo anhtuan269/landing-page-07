@@ -1,7 +1,7 @@
 <template>
-  <div class="investor mb-20 max-w-400 mx-auto flex flex-col-reverse md:max-w-2xl xl:flex-row xl:max-w-1200 xl:justify-between">
+  <div class="investor mb-20 max-w-400 mx-auto flex flex-col-reverse md:max-w-2xl xl:flex-row xl:max-w-1200 xl:justify-between acer:max-w-1280 2xl:max-w-1460">
     <div
-      class="box mt-16 border-4 border-black rounded-2xl px-10 py-9 bg-white md:w-400 md:mx-auto xl:mx-0 xl:mr-auto "
+      class="box mt-16 border-4 border-black rounded-2xl px-10 py-9 bg-white md:w-400 md:mx-auto xl:mx-0 xl:mr-auto 2xl:w-610 "
     >
       <Investor v-for="(item, index) in investor" :key="index" :item="item" />
       <Button

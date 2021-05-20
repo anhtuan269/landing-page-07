@@ -1,6 +1,6 @@
 <template>
   <div
-    class="header flex justify-between mb-20 items-center pt-10 max-w-400 mx-auto xl:max-w-1200 xl:mb-10"
+    class="header flex justify-between mb-20 items-center pt-10 max-w-400 mx-auto xl:max-w-1200 xl:mb-10 acer:max-w-1280 2xl:max-w-1460"
   >
     <Logo
       v-for="(item, index) in logo"

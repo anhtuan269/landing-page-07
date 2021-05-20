@@ -1,6 +1,6 @@
 <template>
-  <div class="open max-w-400 mx-auto md:max-w-2xl xl:max-w-1200 xl:flex xl:items-center xl:justify-between ">
-    <div class="head xl:w-6/12">
+  <div class="open max-w-400 mx-auto md:max-w-2xl xl:max-w-1200 xl:flex xl:items-center xl:justify-between  acer:max-w-1280 2xl:max-w-1460">
+    <div class="head xl:w-6/12 ">
       <Heading
         v-for="(head, index) in heading"
         :key="index"
@@ -17,7 +17,7 @@
         :background="item.type"
       />
     </div>
-   <div class="image xl:w-6/12">
+   <div class="image xl:w-6/12 acer:w-610">
       <img src="@/static/image/footer.png" alt="" class="w-full " />
    </div>
   </div>

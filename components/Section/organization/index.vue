@@ -1,6 +1,6 @@
 <template>
-  <div class="organizatios mb-20 max-w-400 mx-auto md:max-w-2xl xl:max-w-1200 xl:flex xl:justify-between xl:items-center">
-    <div class="head mb-20 w-670 ">
+  <div class="organizatios mb-20 max-w-400 mx-auto md:max-w-2xl xl:max-w-1200 xl:flex xl:justify-between xl:items-center acer:max-w-1280 2xl:max-w-1460">
+    <div class="head mb-20 xl:w-670 2xl:w-700  ">
       <img src="@/static/image/arow.png" alt="" class="mb-4 w-20" />
       <Heading
         v-for="(head, index) in heading"
@@ -10,8 +10,8 @@
         :head="head"
       />
     </div>
-    <div class="mem relative mx-auto md:w-400 xl:ml-auto xl:mx-0 ">
-      <div class="content border-4 border-solid border-black rounded-2xl pt-8 pl-10 max-w-380 mr-auto  bg-white md:mx-auto ">
+    <div class="mem relative mx-auto md:w-400 xl:ml-auto xl:mx-0  xl:w-525 2xl:w-610">
+      <div class="content border-4 border-solid border-black rounded-2xl pt-8 pl-10 max-w-380 mr-auto  bg-white md:mx-auto xl:max-w-460 xl:ml-auto 2xl:max-w-610 ">
         <h3 class="text-28 font-bold leading-10 mb-10">Members</h3>
       <Member
         v-for="(item, index) in avatar"
@@ -21,7 +21,7 @@
         :type="item.type"
       />
       </div>
-      <div class="bg-green-01 h-full w-380 rounded-2xl absolute top-4   right-1 z-a md:-right-1"></div>
+      <div class="bg-green-01 h-full w-380 rounded-2xl absolute top-4   right-1 z-a md:-right-1 xl:w-460 xl:right-2 2xl:w-610 2xl:-right-4" ></div>
     </div>
   </div>
 </template>

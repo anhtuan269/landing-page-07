@@ -1,6 +1,6 @@
 <template>
-  <div class="committed mb-20 max-w-400 mx-auto md:max-w-2xl xl:max-w-1200 xl:flex xl:justify-between xl:items-center">
-    <div class="left xl:w-610 xl:-mt-10">
+  <div class="committed mb-20 max-w-400 mx-auto md:max-w-2xl xl:max-w-1200 xl:flex xl:justify-between xl:items-center acer:max-w-1280 2xl:max-w-1460">
+    <div class="left xl:w-610 xl:-mt-10 2xl:w-670">
       <img src="@/static/image/blue-icon.png" alt="" class="w-20 mb-3" />
       <Heading
         v-for="(head, index) in heading"
@@ -10,7 +10,7 @@
         v-show="head.type === 'commited'"
       />
     </div>
-    <div class="right mt-20 xl:mt-0 xl:w-555">
+    <div class="right mt-20 xl:mt-0 xl:w-555 acer:w-590">
       <div class="write relative xl:w-555 xl:mx-auto">
         <div
           class="share-box justify-between p-6 border-4 bg-white border-black rounded-2xl text-center mb-10 xl:w-555 xl:text-left xl:flex"
@@ -49,7 +49,7 @@
             :type="item.type"
           />
         </div>
-        <div class="alex mt-16 border-4 border-green-01 rounded-2xl px-10 py-8 md:mt-10 md:w-5/12 md:h-n-350 xl:w-200 xl:px-5">
+        <div class="alex mt-16 border-4 border-green-01 rounded-2xl px-10 py-8 md:mt-10 md:w-5/12 md:h-n-350 xl:w-200  xl:px-5 acer:w-250 acer:px-10">
           <Avatar
             v-for="(item, index) in avatar"
             :key="index"
